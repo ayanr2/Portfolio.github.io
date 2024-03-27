@@ -14,7 +14,10 @@ h1 {
   opacity: 0;
   font-size: 5rem;
   animation: fadeIn2 2s ease forwards 3s;
-  font-family: 'Patua One', serif;
+  font-family: "Reddit Mono", monospace;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
 }
 
 h2 {
@@ -140,11 +143,6 @@ main {
 }
 
 
-
-
-
-
-
 @-webkit-keyframes stripe-slide {
   0% {
     background-position: 0% 0;
@@ -161,6 +159,11 @@ main {
     background-position: 100% 0;
   }
 }
+
+
+
+
+
 
 .btn {
   overflow: visible;
