@@ -39,13 +39,13 @@ li a {
 }
 
 li a:hover:not(.active) {
-  background-color: #506A67;
+  background-color: #fff0db;
   color: white;
 }
 
 li a.active {
   color: white;
-  background-color: #506A67;
+  background-color: #fff0db;
 }
 
 img {
